@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "nikhil-import"
 
   tags = {
-    Name = "Gagan-devops-server-v2"
+    Name = "nikhil-devops-server-v2"
     env = "production"
     owner = "Vinay"
   }
